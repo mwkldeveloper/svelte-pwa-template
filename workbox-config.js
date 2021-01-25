@@ -1,7 +1,7 @@
 module.exports = {
   "globDirectory": "public/",
   "globPatterns": [
-    "**/*.{css,js,png,html}"
+    "**/*.{css,js,png,svg,html}"
   ],
   "swDest": "public/sw.js"
 };

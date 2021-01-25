@@ -4,10 +4,11 @@
 <head>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
-
+	<meta name="description" content="Svetle PWA template.">
+	<meta name="theme-color" content="orange" />
 	<title>Svelte app</title>
-
 	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel="apple-touch-icon" href="/images/icons-192.png">
 	<link rel='stylesheet' href='/global.css'>
 	<link rel='stylesheet' href='/build/bundle.css'>
 	<link rel="manifest" href="/app.webmanifest" crossorigin="use-credentials">
@@ -15,7 +16,10 @@
 </head>
 
 <body>
-
+	<noscript>
+		<h1>Please enable javascript!</h1>
+		<img src="/images/javascript.svg" height="128"/>
+	</noscript>
 	<script>
 		// Check that service workers are supported
 		if ('serviceWorker' in navigator) {
