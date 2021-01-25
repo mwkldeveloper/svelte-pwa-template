@@ -7,7 +7,7 @@
 This is a project PWA template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/mwkldeveloper/svelte-pwa-template.
 
 
-*Not work yet. degit not support 'main' as default branch name yet.* ---> https://github.com/Rich-Harris/degit/pull/243
+*Note that degit not support 'main' as default branch name yet.* ---> https://github.com/Rich-Harris/degit/pull/243
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
